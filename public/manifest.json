@@ -1,0 +1,9 @@
+{
+  "short_name": "Coaching Leage",
+  "name": "Coaching Leage Of Legends",
+  "icons": [],
+  "start_url": ".\\app",
+  "display": "standalone",
+  "theme_color": "#22092C",
+  "background_color": "#22092C"
+}

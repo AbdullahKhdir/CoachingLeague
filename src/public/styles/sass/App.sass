@@ -1,0 +1,129 @@
+@font-face
+    font-family: 'Marhey'
+    src: local('Marhey'), url('../fonts/Anta-Marhey/Marhey/Marhey-VariableFont_wght.ttf') format('truetype')    
+
+@font-face
+    font-family: 'Anta-Regular'
+    src: local('Anta-Regular'), url('../fonts/Anta-Regular/Anta-Regular.ttf') format('truetype')    
+
+@font-face
+    font-family: 'Anta-Josefin_Sans'
+    src: local('Anta-Josefin_Sans'), url('../fonts/Anta-Josefin_Sans/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype')    
+
+@font-face
+    font-family: 'Anta-Dosis'
+    src: local('Anta-Dosis'), url('../fonts/Anta-Dosis/Dosis/Dosis-VariableFont_wght.ttf') format('truetype')    
+    
+
+body
+    position: relative
+    width: 100%
+    height: 100%
+    font-family: 'Anta-Regular'
+
+a
+    text-decoration: none
+    color: #fff
+    font-size: 16px
+    &:hover
+        color: #F05941
+    &:active
+        color: #BE3144
+    
+.app
+    position: fixed
+    width: 100%
+    height: 100%
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: #22092c !important
+
+.main
+    position: relative
+    height: 100%
+    background-image: radial-gradient(rgb(34, 9, 44), rgb(0, 0, 0))
+    // position: relative
+    // height: 100%
+    // padding-left: 15px
+    // padding-right: 15px
+    // padding-bottom: 5px
+    // padding-top: 5px
+    // background-image: radial-gradient(rgb(34, 9, 44), rgb(0, 0, 0))
+    section#navigation
+        position: relative
+        width: 100%
+        top: 0%
+        left: 50%
+        transform: translate(-50%, 0%)
+        background-image: linear-gradient(180deg, rgb(135 35 65 / 16%), rgb(255 255 255 / 0%))
+        .container
+            position: relative
+        .navigation-bar
+            position: relative
+            display: flex
+            flex-direction: row
+            justify-content: space-evenly
+            align-items: center
+            .navigation-bar-brand
+                position: relative
+                display: flex
+                flex-direction: row
+                padding-left: 10px
+            .navigation-bar-routes, .navigation-bar-actions
+                position: relative
+                display: flex
+                list-style: none
+            .navigation-item
+                position: relative
+                padding-right: 10px
+                padding-left: 10px
+    section
+        .blur-layout
+            position: absolute
+            width: 100%
+            height: 100%
+            border-radius: 10px
+            -webkit-backdrop-filter: blur(1px)
+            backdrop-filter: blur(1px)
+            background-image: radial-gradient(rgb(240, 89, 65, .1), rgb(0, 0, 0))
+    section#testimonials
+        margin-top: 70px
+        left: 50%
+        transform: translate(-50%, 0%)
+        position: relative
+        display: block
+        background-color: #BE31442e
+        background-color: rgba(152, 39, 54, 0.18)
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 16px
+        // -webkit-backdrop-filter: blur(10px)
+        /* backdrop-filter: blur(10px); */
+        border-radius: 10px
+        padding: 20px
+        width: 50%
+        box-shadow: 0 8px 16px rgba(0,0,0,.1)
+        div.mui-paper
+            position: relative
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            align-content: center
+            align-items: center
+            background-color: rgba(255, 255, 255, 0)
+            color: #ffffff
+            img.slider-image
+                position: relative
+                border: 1px solid #22092C
+                border-radius: 100%
+                width: 250px
+                height: 250px
+            p.slider-description
+                font-size: 24px
+        div.mui-carousel
+            position: relative
+            display: flex
+            flex-direction: column
+            flex-wrap: wrap
+            align-content: center
+            align-items: center
+            height: 420px
