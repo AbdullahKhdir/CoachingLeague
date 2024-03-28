@@ -1,0 +1,76 @@
+.CARD-VALORANT {
+  height: 255px;
+  position: relative;
+  width: 456px;
+}
+
+.CARD-VALORANT .overlap-group-4 {
+  height: 257px;
+  left: -2px;
+  position: relative;
+  width: 460px;
+}
+
+.CARD-VALORANT .subtract-5 {
+  height: 243px;
+  left: 0;
+  position: absolute;
+  top: 14px;
+  width: 460px;
+}
+
+.CARD-VALORANT .subtract-6 {
+  height: 209px;
+  left: 17px;
+  position: absolute;
+  top: 31px;
+  width: 426px;
+}
+
+.CARD-VALORANT .mask-group-2 {
+  height: 240px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 426px;
+}
+
+.CARD-VALORANT .valorant-logo-black {
+  height: 98px;
+  left: 59px;
+  position: absolute;
+  top: 78px;
+  width: 142px;
+}
+
+.CARD-VALORANT .group-2 {
+  height: 30px;
+  left: 17px;
+  position: absolute;
+  top: 210px;
+  width: 148px;
+}
+
+.CARD-VALORANT .coming-soon-wrapper {
+  background-image: url(../../../static/img/subtract-25.svg);
+  background-size: 100% 100%;
+  height: 30px;
+  position: relative;
+  width: 146px;
+}
+
+.CARD-VALORANT .coming-soon {
+  color: #181818;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 800;
+  left: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 6px;
+}
+
+.CARD-VALORANT.property-1-ACTIVE {
+  box-shadow: 13.02px 12.02px 53.79px #b8e92d33;
+}

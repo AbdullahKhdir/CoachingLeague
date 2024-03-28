@@ -1,0 +1,44 @@
+.button-small {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 6.2px;
+  justify-content: center;
+  position: relative;
+}
+
+.button-small .subtract-8 {
+  height: 44.93px;
+  margin-bottom: -2px;
+  margin-left: -2px;
+  margin-right: -2px;
+  margin-top: -2px;
+  position: relative;
+  width: 171.41px;
+}
+
+.button-small .text-wrapper-6 {
+  color: #ffffff;
+  font-family: var(--body-body-3-medium-font-family);
+  font-size: var(--body-body-3-medium-font-size);
+  font-style: var(--body-body-3-medium-font-style);
+  font-weight: var(--body-body-3-medium-font-weight);
+  left: 54px;
+  letter-spacing: var(--body-body-3-medium-letter-spacing);
+  line-height: var(--body-body-3-medium-line-height);
+  position: absolute;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.button-small.property-1-2-hover {
+  box-shadow: 5px 8px 40px #a575ff99;
+}
+
+.button-small.property-1-2-press {
+  box-shadow: 5px 8px 40px #a575ff99;
+}
+
+.button-small.property-1-2-disabled .text-wrapper-6 {
+  opacity: 0.7;
+}

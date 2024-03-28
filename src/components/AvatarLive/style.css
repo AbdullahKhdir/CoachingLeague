@@ -1,0 +1,118 @@
+.avatar-live {
+  height: 185px;
+  position: relative;
+  width: 145px;
+}
+
+.avatar-live .overlap {
+  height: 185px;
+  position: relative;
+}
+
+.avatar-live .overlap-group-wrapper {
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 9px;
+  width: 145px;
+}
+
+.avatar-live .overlap-group-2 {
+  height: 178px;
+  left: -3px;
+  position: relative;
+  top: -3px;
+  width: 151px;
+}
+
+.avatar-live .rectangle-3 {
+  height: 151px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 151px;
+}
+
+.avatar-live .rectangle-4 {
+  left: 7px;
+  position: absolute;
+  width: 137px;
+}
+
+.avatar-live .master-emblem-2 {
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  width: 124px;
+}
+
+.avatar-live .frame-8 {
+  align-items: center;
+  background-color: #ff0000;
+  display: flex;
+  gap: 8px;
+  height: 29px;
+  left: 19px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 0;
+  width: 108px;
+}
+
+.avatar-live .translation {
+  height: 17px;
+  position: relative;
+  width: 17px;
+}
+
+.avatar-live .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.avatar-live .property-1-1-master-2 {
+  height: 136px;
+  top: 8px;
+}
+
+.avatar-live .property-1-1-master-1 {
+  height: 136px;
+  top: 8px;
+}
+
+.avatar-live .property-1-1-challenger-1 {
+  height: 137px;
+  top: 7px;
+}
+
+.avatar-live .property-1-1-challenger-2 {
+  height: 136px;
+  top: 8px;
+}
+
+.avatar-live .property-1-2-master-2 {
+  height: 99px;
+  top: 79px;
+}
+
+.avatar-live .property-1-2-master-1 {
+  height: 99px;
+  top: 79px;
+}
+
+.avatar-live .property-1-2-challenger-1 {
+  height: 100px;
+  top: 78px;
+}
+
+.avatar-live .property-1-2-challenger-2 {
+  height: 100px;
+  top: 78px;
+}

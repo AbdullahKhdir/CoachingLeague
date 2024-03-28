@@ -1,0 +1,42 @@
+.button-large {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  /* align-items: flex-start; */
+  /* flex-direction: column; */
+  /* gap: 10px; */
+}
+
+.button-large .subtract-2 {
+  height: 70.01px;
+  margin: -2px;
+  position: relative;
+  width: 274px;
+}
+
+.button-large .CREATE-ACCOUNT {
+  color: #ffffff;
+  font-family: var(--body-body-2-medium-font-family);
+  font-size: var(--body-body-2-medium-font-size);
+  font-style: var(--body-body-2-medium-font-style);
+  font-weight: var(--body-body-2-medium-font-weight);
+  left: 45px;
+  letter-spacing: var(--body-body-2-medium-letter-spacing);
+  line-height: var(--body-body-2-medium-line-height);
+  position: absolute;
+  top: 17px;
+  white-space: nowrap;
+}
+
+/* .button-large.hover-press {
+  box-shadow: 5px 8px 40px #a575ff99;
+} */
+/* 
+.button-large.hover-hover {
+  box-shadow: 5px 8px 40px #a575ff99;
+} */
+
+.button-large.hover-disabled .CREATE-ACCOUNT {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

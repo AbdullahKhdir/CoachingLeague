@@ -1,0 +1,93 @@
+.FAQ {
+  align-items: flex-start;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: #ffffff80;
+  padding: 0px 0px 40px;
+  position: relative;
+}
+
+.FAQ .frame-7 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  position: relative;
+}
+
+.FAQ .text-wrapper-3 {
+  font-family: var(--headlines-heading-3-font-family);
+  font-size: var(--headlines-heading-3-font-size);
+  font-style: var(--headlines-heading-3-font-style);
+  font-weight: var(--headlines-heading-3-font-weight);
+  letter-spacing: var(--headlines-heading-3-letter-spacing);
+  line-height: var(--headlines-heading-3-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 381px;
+}
+
+.FAQ .text-wrapper-4 {
+  color: var(--green-100);
+  font-family: var(--headlines-heading-3-font-family);
+  font-size: var(--headlines-heading-3-font-size);
+  font-style: var(--headlines-heading-3-font-style);
+  font-weight: var(--headlines-heading-3-font-weight);
+  letter-spacing: var(--headlines-heading-3-letter-spacing);
+  line-height: var(--headlines-heading-3-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.FAQ .there-s-an-option {
+  color: #ffffff;
+  font-family: var(--body-body-2-regular-font-family);
+  font-size: var(--body-body-2-regular-font-size);
+  font-style: var(--body-body-2-regular-font-style);
+  font-weight: var(--body-body-2-regular-font-weight);
+  letter-spacing: var(--body-body-2-regular-letter-spacing);
+  line-height: var(--body-body-2-regular-line-height);
+  opacity: 0.6;
+  position: relative;
+  width: fit-content;
+}
+
+.FAQ .add {
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.FAQ.property-1-0-hover {
+  display: flex;
+  gap: 515px;
+  width: 932px;
+}
+
+.FAQ.property-1-0-close {
+  display: flex;
+  gap: 515px;
+  width: 932px;
+}
+
+.FAQ.property-1-0-open {
+  display: inline-flex;
+  gap: 41px;
+  justify-content: flex-end;
+}
+
+.FAQ.property-1-0-hover .text-wrapper-3 {
+  color: var(--green-100);
+}
+
+.FAQ.property-1-0-close .text-wrapper-3 {
+  color: #ffffff;
+}
+
+.FAQ.property-1-0-open .text-wrapper-3 {
+  color: #ffffff;
+}

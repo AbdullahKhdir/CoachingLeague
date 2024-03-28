@@ -1,0 +1,86 @@
+.avatar {
+  height: 175px;
+  position: relative;
+  width: 145px;
+}
+
+.avatar .overlap-group {
+  left: -2px;
+  position: relative;
+  top: -2px;
+  width: 149px;
+}
+
+.avatar .rectangle {
+  height: 149px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 149px;
+}
+
+.avatar .rectangle-2 {
+  left: 6px;
+  position: absolute;
+  top: 7px;
+  width: 137px;
+}
+
+.avatar .master-emblem {
+  left: 13px;
+  object-fit: cover;
+  position: absolute;
+  width: 124px;
+}
+
+.avatar .master-2 {
+  height: 177px;
+}
+
+.avatar .master-1 {
+  height: 177px;
+}
+
+.avatar .challenger-1 {
+  height: 178px;
+}
+
+.avatar .challenger-2 {
+  height: 177px;
+}
+
+.avatar .overlap-group.master-2 .rectangle-2 {
+  height: 136px;
+}
+
+.avatar .overlap-group.master-1 .rectangle-2 {
+  height: 136px;
+}
+
+.avatar .overlap-group.challenger-1 .rectangle-2 {
+  height: 137px;
+}
+
+.avatar .overlap-group.challenger-2 .rectangle-2 {
+  height: 136px;
+}
+
+.avatar .overlap-group.master-2 .master-emblem {
+  height: 99px;
+  top: 78px;
+}
+
+.avatar .overlap-group.master-1 .master-emblem {
+  height: 99px;
+  top: 78px;
+}
+
+.avatar .overlap-group.challenger-1 .master-emblem {
+  height: 100px;
+  top: 78px;
+}
+
+.avatar .overlap-group.challenger-2 .master-emblem {
+  height: 100px;
+  top: 77px;
+}

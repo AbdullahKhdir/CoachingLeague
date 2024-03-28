@@ -1,0 +1,62 @@
+.CARD-LEAGUE {
+  height: 275px;
+  position: relative;
+  width: 456px;
+}
+
+.CARD-LEAGUE .overlap-2 {
+  height: 277px;
+  left: -2px;
+  position: relative;
+  width: 460px;
+}
+
+.CARD-LEAGUE .subtract-3 {
+  height: 243px;
+  left: 0;
+  position: absolute;
+  top: 34px;
+  width: 460px;
+}
+
+.CARD-LEAGUE .div-wrapper {
+  height: 260px;
+  left: 17px;
+  position: absolute;
+  top: 0;
+  width: 426px;
+}
+
+.CARD-LEAGUE .overlap-group-3 {
+  height: 260px;
+  position: relative;
+}
+
+.CARD-LEAGUE .subtract-4 {
+  height: 209px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 51px;
+  width: 426px;
+}
+
+.CARD-LEAGUE .mask-group {
+  height: 260px;
+  left: 27px;
+  position: absolute;
+  top: 0;
+  width: 399px;
+}
+
+.CARD-LEAGUE .lol-logo {
+  height: 61px;
+  left: 15px;
+  position: absolute;
+  top: 125px;
+  width: 130px;
+}
+
+.CARD-LEAGUE.ACTIVE {
+  box-shadow: 13.02px 12.02px 53.79px #b8e92d33;
+}

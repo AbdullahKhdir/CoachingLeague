@@ -1,0 +1,1 @@
+export { CardTft } from "./CardTft";
